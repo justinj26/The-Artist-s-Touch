@@ -1,0 +1,288 @@
+#show-panel {
+position: absolute;
+width: 1080px;
+height: 554px;
+left: 180px;
+top: 170px;
+text-align: center;
+
+background: rgb(250, 250, 250);
+border-radius: 50px;
+overflow: scroll;
+opacity: 0.5;
+}
+
+#show-panel:hover {
+    opacity: 0.85;
+}
+
+h1 {
+    position: absolute;
+width: 379px;
+height: 109px;
+left: 531px;
+top: 37px;
+
+font-family: Rock Salt;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+text-align: center;
+
+color: #000000;
+}
+.header {
+    position: absolute;
+width: 513px;
+height: 170px;
+left: 464px;
+top: 0px;
+
+background: rgb(250, 250, 250);
+border-radius: 20px;
+opacity: 0.5;
+}
+
+/* body, html {
+    height: 100%;
+} */
+
+body {
+    background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/colorfall.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+
+
+}
+
+/* #content-box {
+    
+} */
+#settings {
+    position: absolute;
+    top: 680px;
+    height: 170px;
+    left: 1260px;
+    width: 180px;
+    color: rgb(255, 255,255);
+
+    text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/settings.jpg);
+background-size: cover;
+object-fit: cover;
+    border-radius: 20px;
+}
+
+#settings:hover {
+    opacity: 1.0;
+}
+
+#musings {
+    position: absolute;
+width: 285px;
+height: 170px;
+left: 180px;
+top: 0px;
+
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/musings.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+}
+
+#musings:hover {
+    opacity: 1.0;
+}
+
+#undecideds {
+    position: absolute;
+width: 180px;
+height: 170px;
+left: 0px;
+top: 170px;
+color: rgb(255, 255, 255);
+
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/undecideds.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+}
+
+#undecideds:hover {
+    opacity: 1.0;
+}
+
+#scraps {
+position: absolute;
+width: 180px;
+height: 170px;
+left: 0px;
+top: 680px;
+color: rgb(255, 255, 255);
+
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/scraps.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+}
+
+#scraps:hover {
+    opacity: 1.0;
+}
+
+#uninspirings {
+    position: absolute;
+width: 180px;
+height: 170px;
+left: 0px;
+top: 510px;
+
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/uninspirings.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+}
+
+#uninspirings:hover {
+    opacity: 1.0;
+}
+
+#inspirings {
+    position: absolute;
+width: 180px;
+height: 170px;
+left: 0px;
+top: 340px;
+color: rgb(255, 255, 255);
+
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/inspirings.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+}
+
+#inspirings:hover {
+    opacity: 1.0;
+}
+
+#techniques {
+    position: absolute;
+width: 181px;
+height: 170px;
+left: 1259px;
+top: 170px;
+
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/techniques.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+}
+
+#techniques:hover {
+    opacity: 1.0;
+}
+
+#landscapes {
+    position: absolute;
+width: 180px;
+height: 170px;
+left: 1260px;
+top: 340px;
+
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/landscapes.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+}
+
+#landscapes:hover {
+    opacity: 1.0;
+}
+
+#possibilities {
+    position: absolute;
+    width: 180px;
+    height: 170px;
+    left: 1261px;
+    top: 510px;
+    color: rgb(255, 255, 255);
+    
+    text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/possibilities.jpg);
+background-size: cover;
+object-fit: cover;
+    border-radius: 20px;
+}
+
+#possibilities:hover {
+    opacity: 1.0;
+}
+
+.form {
+position: absolute;
+width: 1080px;
+height: 250px;
+left: 180px;
+top: 721px;
+opacity: 0.5;
+background: rgb(250, 250, 250);
+border-radius: 25px;
+}
+
+.form:hover {
+    opacity: 0.85;
+}
+
+#worlds {
+position: absolute;
+width: 283px;
+height: 170px;
+left: 977px;
+top: 0px;
+text-align: center;
+opacity: 0.85;
+background-image: url(/Users/User/dev/flatiron/labs/The-Artist-s-Touch/css/worlds.jpg);
+background-size: cover;
+object-fit: cover;
+border-radius: 20px;
+
+/* display: inline-block; */
+/* position: relative;
+top: 50%;
+transform: translateY(-50%); */
+}
+
+#worlds:hover {
+    opacity: 1.0;
+}
+
+#editor {
+/* /* width: 1080px; */
+height: 230px;
+/* left: 180px; */
+/* top: 721px; */
+} 
